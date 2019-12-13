@@ -1,5 +1,5 @@
 /**
- * json elaborato tutto in unica chiamata ajax
+ * json elaborato tutto in un' unica chiamata ajax
  * *
  */
 var getLvl = "guest";
@@ -138,7 +138,6 @@ function printTeam(team) {
         },
     });
 }
-
 function getData(){
     $.ajax({
         type: "GET",
