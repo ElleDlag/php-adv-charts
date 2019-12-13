@@ -97,7 +97,7 @@ function printTeam(team) {
                 pointBackgroundColor: 'rgb(10,10, 255)',
                 },
                 {
-                label: 'Team1',
+                label: 'Team2',
                 data:Object.values(team.data[(Object.keys(team.data))[1]]),
                 backgroundColor: ['rgb(200, 10, 10, .4)'],
                 borderColor: ['rgb(200, 10, 10)'],
@@ -105,7 +105,7 @@ function printTeam(team) {
                 pointBackgroundColor: "rgb(200, 10, 10)",
                 },
                 {
-                label: 'Team1',
+                label: 'Team3',
                 data:Object.values(team.data[(Object.keys(team.data))[2]]),
                 backgroundColor: ['rgb(200, 200, 200, .4)'],
                 borderColor: ['rgb(200, 200, 200)'],
